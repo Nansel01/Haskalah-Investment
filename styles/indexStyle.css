@@ -1,0 +1,36 @@
+
+/* General full height for carousel items */
+.carousel-item {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Ensure carousel-caption stays visible */
+.carousel-caption {
+  bottom: 20%;
+}
+
+/* Optional: Responsive font scaling for caption */
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.25rem;
+  }
+  .carousel-caption p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Hide overflow issues on very small screens */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+

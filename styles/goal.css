@@ -1,0 +1,5 @@
+@media (min-width: 992px) {
+  .container {
+    min-height: calc(100vh - 100px); /* 100px for example header + footer height */
+  }
+}
